@@ -14,25 +14,25 @@ class OrangeTv
     private function keyToRemoteCode($key)
     {
         switch($key) {
-            case 0:
+            case '0':
                 return 512;
-            case 1:
+            case '1':
                 return 513;
-            case 2:
+            case '2':
                 return 514;
-            case 3:
+            case '3':
                 return 515;
-            case 4:
+            case '4':
                 return 516;
-            case 5:
+            case '5':
                 return 517;
-            case 6:
+            case '6':
                 return 518;
-            case 7:
+            case '7':
                 return 519;
-            case 8:
+            case '8':
                 return 520;
-            case 9:
+            case '9':
                 return 521;
             case 'ONOFF':
                 return 116;
